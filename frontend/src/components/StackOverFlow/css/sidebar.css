@@ -1,0 +1,55 @@
+.sidebar{
+    display: flex;
+    padding: 5px 0 10px 10px;
+    height: 100%;
+    max-width: 200px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar-container{
+    width: 100%;
+}
+
+.sidebar-options{
+    margin-top: 30px;
+}
+
+.sidebar-option{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+
+a:hover{
+    color: #000;
+}
+
+.sidebar-option:hover{
+    font-weight: 500;
+    background-color: #ddd;
+    border-right: 5px solid rgba(245 , 162 , 9);
+    font-weight: 500;
+}
+
+.sidebar-option > p{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.sidebar-option > .MuiSvgIcon-root{
+    color: rgba(0,0,0,0.7);
+    font-size: larger;
+    padding-right: 5px;
+}
+.link-tag > .MuiSvgIcon-root{
+    color: rgba(0,0,0,0.7);
+    font-size: 16px;
+    padding-right: 5px;
+}
+

@@ -1,0 +1,107 @@
+.main{
+    padding: 30px 10px;
+    display: flex;
+    flex: 0.9;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.main-top > h2{
+    font-weight: 500;
+    font-size: 25px;
+    color: rgba(0,0,0,0.8);
+}
+
+button{
+    padding: 10px;
+    background-color: #007bd3;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.main-des{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgba(0,0,0,0.8);
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+    margin-top: 10px;
+}
+
+.main-filter{
+    display: flex;
+    align-items: center;
+}
+
+.main-tags{
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.4);
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.main-tag{
+    padding: 5px;
+    font-size: 15px;
+    border-right: 1px solid rgba(0,0,0,0.4);
+    width: 50px;
+    text-align: center;
+}
+
+.main-filter-item{
+    display: flex;
+    padding: 5px;
+    border: 1px solid #0095ff;
+    border-radius: 3px;
+    background-color: #007cd446;
+    font-size: 15px;
+    align-items: center;
+    cursor: pointer;
+    color: #007dc4;
+}
+
+.main-filter-item > .MuiSvgIcon-root{
+    font-size: 17px;
+    margin-right: 3px;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+
+
+
+
+
+
+
